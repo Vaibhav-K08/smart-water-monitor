@@ -15,7 +15,7 @@
 
 ## What This Does
 
-Three tanks — Source, Process, and Reserve; run as a live digital twin. The system tracks water levels every second, triggers pump transfers automatically when thresholds are breached, and renders the entire plant as an interactive 3D visualization in the browser at `http://localhost:5000`.
+Three tanks: Source, Process, and Reserve; run as a live digital twin. The system tracks water levels every second, triggers pump transfers automatically when thresholds are breached, and renders the entire plant as an interactive 3D visualization in the browser at `http://localhost:5000`.
 
 Tank colors shift from blue to orange to red as levels drop, the transfer pipe turns cyan when flow is active, and a commentary engine describes what the system is currently doing in plain language.
 
