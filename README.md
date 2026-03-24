@@ -51,7 +51,7 @@ Each tank is rendered as a 3D mesh with two layers: a translucent grey frame and
 | Level | Color | Meaning |
 |---|---|---|
 | Above 45% | Blue | Normal |
-| 30 — 45% | Orange | Warning |
+| 30-45% | Orange | Warning |
 | Below 30% | Red | Critical |
 
 The transfer pipe between Source and Process is rendered as a 3D line; cyan when the pump is running, grey when idle. Billboard labels above each tank show the name and live percentage, styled with system fonts for a clean look.
@@ -62,8 +62,8 @@ The transfer pipe between Source and Process is rendered as a 3D line; cyan when
 
 Glass-style web UI served at `http://localhost:5000`:
 
-- Left panel — full height 3D Plotly plant visualization
-- Right panel — live level readings (Source, Process, Reserve), current status commentary, and a color legend
+- Left panel: full height 3D Plotly plant visualization
+- Right panel: live level readings (Source, Process, Reserve), current status commentary, and a color legend
 - Updates every second via `/data` endpoint
 - Dark background, frosted glass cards, Apple system font stack
 
