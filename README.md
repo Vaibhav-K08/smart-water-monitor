@@ -1,4 +1,4 @@
-# 💧 Smart Water Tank Digital Twin SCADA
+# 💧 Smart Water Tank Digital Twin SCADA System
 
 <div align="center">
 
