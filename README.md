@@ -7,7 +7,7 @@
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-*A 3D SCADA digital twin that monitors three water tanks in real time, automates flow between them, and visualizes everything on a live glass-style web dashboard.*
+*A 3D SCADA digital twin that monitors three water tanks in real time, automates flow between them, and visualizes everything on a live glass style web dashboard.*
 
 </div>
 
@@ -15,7 +15,7 @@
 
 ## What This Does
 
-Three tanks — Source, Process, and Reserve — run as a live digital twin. The system tracks water levels every second, triggers pump transfers automatically when thresholds are breached, and renders the entire plant as an interactive 3D visualization in the browser at `http://localhost:5000`.
+Three tanks — Source, Process, and Reserve; run as a live digital twin. The system tracks water levels every second, triggers pump transfers automatically when thresholds are breached, and renders the entire plant as an interactive 3D visualization in the browser at `http://localhost:5000`.
 
 Tank colors shift from blue to orange to red as levels drop, the transfer pipe turns cyan when flow is active, and a commentary engine describes what the system is currently doing in plain language.
 
@@ -46,7 +46,7 @@ Simulation Loop (1 second per step)
 
 ## The 3D Visualization
 
-Each tank is rendered as a 3D mesh with two layers — a translucent grey frame and a colored water fill that scales in height with the actual level. The water color changes based on how full the tank is:
+Each tank is rendered as a 3D mesh with two layers: a translucent grey frame and a colored water fill that scales in height with the actual level. The water color changes based on how full the tank is:
 
 | Level | Color | Meaning |
 |---|---|---|
@@ -54,7 +54,7 @@ Each tank is rendered as a 3D mesh with two layers — a translucent grey frame 
 | 30 — 45% | Orange | Warning |
 | Below 30% | Red | Critical |
 
-The transfer pipe between Source and Process is rendered as a 3D line — cyan when the pump is running, grey when idle. Billboard labels above each tank show the name and live percentage, styled with system fonts for a clean look.
+The transfer pipe between Source and Process is rendered as a 3D line; cyan when the pump is running, grey when idle. Billboard labels above each tank show the name and live percentage, styled with system fonts for a clean look.
 
 ---
 
@@ -72,7 +72,7 @@ Glass-style web UI served at `http://localhost:5000`:
 ## Features
 
 - Three tank digital twin with physically realistic flow dynamics
-- Automatic pump control — no manual intervention needed
+- Automatic pump control; no manual intervention needed
 - Reserve tank acts as a secondary failsafe when Process drops critically low
 - 3D mesh visualization with live fill height and color coded water levels
 - Transfer pipe changes color when flow is active
