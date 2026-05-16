@@ -1,4 +1,4 @@
-# AquaNexus SCADA Pro — Cascaded Tri-Loop Smart Water Management System
+# AquaNexus SCADA Pro: Cascaded Tri-Loop Smart Water Management System
 
 <div align="center">
 
