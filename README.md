@@ -271,6 +271,6 @@ Every part of the system is designed to be legible. An engineer reading the sour
 
 **Vaibhav Krishna V**  
 Electronics and Communication Engineer
-[GitHub](https://github.com/vaibhavkrishnav) · [LinkedIn](https://linkedin.com/in/vaibhavkrishnav)
+[GitHub](https://github.com/vaibhav-krishna-v ) · [LinkedIn](https://linkedin.com/in/vkv078 )
 
 > *Built on the principle that industrial control systems are only as good as the engineering decisions made at every layer — from sensor noise modelling to economic accountability.*
